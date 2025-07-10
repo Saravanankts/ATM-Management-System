@@ -1,0 +1,19 @@
+# Database Connection
+db.url=jdbc:mysql://localhost:3306/atm?useSSL=false&allowPublicKeyRetrieval=true
+db.user=your_username
+db.password=your_strong_password
+
+# Connection Pool (HikariCP Recommended)
+db.pool.initial_size=5
+db.pool.max_active=20
+db.pool.max_wait=5000
+db.pool.max_idle=10
+db.pool.validation_timeout=3000
+
+# Timeouts
+db.connection_timeout=30000
+db.socket_timeout=60000
+
+# Advanced
+db.use_unicode=true
+db.character_encoding=UTF-8

@@ -1,0 +1,68 @@
+# ======================
+#         CORE
+# ======================
+# Java
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.ctsym
+/bin/
+
+# Build
+/out/
+/bin/
+/target/
+/build/
+.gradle/
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
+
+# ======================
+#         IDE
+# ======================
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+.vscode/
+.vs/
+*.code-workspace
+*.swp
+*.swo
+
+# ======================
+#      CONFIGURATION
+# ======================
+*.properties
+!config.properties.sample
+/config.properties
+/local.properties
+.env
+/secrets/
+
+# ======================
+#       DATABASE
+# ======================
+*.db
+*.sqlite
+/db/
+*.log
+
+# ======================
+#          OS
+# ======================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ======================
+#       TEMP FILES
+# ======================
+*.orig
+*.bak
+*.tmp
+*.temp
