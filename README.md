@@ -34,4 +34,4 @@ mysql -u root -p < sql/schema.sql
 mysql -u root -p atm_db < sql/test_data.sql
 
 # Run the application
-just run that Java file locate on -> src\com\java\atm\main\Main.java
+just run that Java file locate on -> src\com\java\atm\Main.java
